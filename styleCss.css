@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+}
+
+.nav-bar{
+    background-color:#ffffff;
+    height: 100px;
+    width: 100vw;   
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.6) 50px;
+
+}
+.nav-bar img{
+    height: 60px;
+    width: 200px;    
+    
+}
+.navbarmenu {
+
+    flex: 1; 
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center;
+    list-style: none; 
+}
+
+.navbarmenu li {
+    padding: 5px 10px;
+    color: white; 
+    font-size: 16px; 
+    text-align: center;
+    color: grey;
+    text-transform: uppercase;
+    text-shadow: 20px indigo;
+}
+
+.navbarmenu li:hover{
+
+    color: orange;
+}
+.downloadbutton{
+    height: 50px;
+    width: 200px;
+    background-color: orange;
+    box-shadow: 20px;
+    border-radius: 30px;
+    margin-right: 15px;
+    justify-items: center;
+    display: flex;
+    justify-content: center;
+}
+.downloadbutton a{
+    display: inline-block; 
+    height: 50px;
+    width: 200px;
+    background-color: orange;
+    box-shadow: 20px;
+    border-radius: 30px;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none; 
+    text-transform: uppercase;
+}
+
+.downloadbutton hover{
+    cursor: pointer;
+    color: red;
+    background-color: lightgreen;
+}
+.carousal{
+    height: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: black 50px;
+}
+.carousal img{
+object-fit: fill;
+height: 580px;
+width: 100vw;
+background-color: yellow;
+}
